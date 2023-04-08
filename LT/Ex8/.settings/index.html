@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+h1 {
+	margin-bottom: 1em;
+}
+
+label, input, button {
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 0.5em;
+	border: none;
+	border-radius: 3px;
+}
+
+button {
+	background-color: #007bff;
+	color: white;
+	padding: 0.5em 1em;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0069d9;
+}
+
+</style>
+<body>
+	
+	
+	<form class="login-form" action="#">
+		<label for=""></label>
+		<input type="radio" value="nữ" name="nữ" id="radio">
+		<input type="rado" value="nam" name="nam" id="radio">
+		<h1>Login</h1>i
+		<label for="username">Username</label>
+		<input type="text" id="username" name="username" required>
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password" required>
+		<button type="submit" id="submit-btn">Login</button>
+	</form>
+
+	<script src="app.js"></script>
+</body>
+</html>
